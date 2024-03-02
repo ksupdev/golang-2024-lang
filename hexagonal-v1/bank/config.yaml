@@ -1,0 +1,8 @@
+app:
+  port: 8080
+
+db:
+  driver: "mysql"
+  endpoint : "root:password@tcp(localhost:3306)/banking?charset=utf8mb4&parseTime=true&loc=Local"
+  # endpoint : "karoon:Puza@#2023@tcp(172.18.116.36:3306)/banking?charset=utf8mb4&parseTime=true&loc=Local"
+  
